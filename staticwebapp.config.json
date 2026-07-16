@@ -1,0 +1,13 @@
+{
+    "navigationFallback": {
+        "rewrite": "/index.html",
+        "exclude": [
+            "/sites/*",
+            "/*.xml",
+            "/*.txt"
+        ]
+    },
+    "globalHeaders": {
+        "Cache-Control": "public, max-age=1800"
+    }
+}
